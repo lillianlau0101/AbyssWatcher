@@ -2,20 +2,25 @@
 合规导向的公开专业人才信号研究框架（PoC）
 
 talent-shadow-hunter/
-├── README.md                 # 项目说明
-├── docs/
-│   ├── strategy.md          # 详细策略文档
-│   └── ethics-compliance.md # 合规与伦理指南
+├── .github/                    # GitHub特定配置
+│   └── ISSUE_TEMPLATE/
+│       └── signal_report.md   # 信号提交模板
 ├── src/
 │   ├── keywords/
-│   │   └── quant_dict.json  # 量化领域关键词库
-│   ├── templates/
-│   │   └── outreach_msgs.md # 私信话术模板
-│   └── analysis/
-│       └── profile_scorer.py # 人才评分算法草稿
-└── cases/
-    └── example_analysis.md  # 案例分析（脱敏）
-
+│   │   ├── quant_dict.json    # 量化核心词库
+│   │   └── web3_dict.json     # Web3扩展词库（额外提供）
+│   ├── analysis/
+│   │   └── signal_scorer.py   # 信号评分算法
+│   └── templates/
+│       └── outreach_msgs.md   # 分阶段话术模板
+├── docs/
+│   ├── strategy.md            # 操作策略手册
+│   ├── ethics-compliance.md   # 合规与伦理指南
+│   └── anti_patterns.md       # 常见错误模式
+├── cases/
+│   └── example_analysis.md    # 脱敏案例分析
+├── LICENSE                    # MIT + 伦理约束条款
+└── README.md                  # 项目门户
 
     # 🕵️ Talent Shadow Hunter | 影子人才挖掘器
 
