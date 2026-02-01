@@ -1,26 +1,37 @@
 # AbyssWatcher
 合规导向的公开专业人才信号研究框架（PoC）
 
-talent-shadow-hunter/
-├── .github/                    # GitHub特定配置
-│   └── ISSUE_TEMPLATE/
-│       └── signal_report.md   # 信号提交模板
-├── src/
-│   ├── keywords/
-│   │   ├── quant_dict.json    # 量化核心词库
-│   │   └── web3_dict.json     # Web3扩展词库（额外提供）
-│   ├── analysis/
-│   │   └── signal_scorer.py   # 信号评分算法
-│   └── templates/
-│       └── outreach_msgs.md   # 分阶段话术模板
-├── docs/
-│   ├── strategy.md            # 操作策略手册
-│   ├── ethics-compliance.md   # 合规与伦理指南
-│   └── anti_patterns.md       # 常见错误模式
-├── cases/
-│   └── example_analysis.md    # 脱敏案例分析
-├── LICENSE                    # MIT + 伦理约束条款
-└── README.md                  # 项目门户
+[![Ethics First](https://img.shields.io/badge/Ethics-First-green.svg)](./docs/ethics-compliance.md)
+[![Strategy](https://img.shields.io/badge/Strategy-Operational-blue.svg)](./docs/strategy.md)
+[![License](https://img.shields.io/badge/License-MIT%20with%20Ethics%20Clause-yellow.svg)](./LICENSE)
+
+> **通过公开评论信号识别专业领域隐藏人才的策略研究框架**
+
+## 🌊 核心理念
+
+**发布者悖论**：90%的行业专家在社交媒体选择"潜水模式"——他们不生产内容，但无法抑制在专业讨论中评论的冲动。
+
+**反向挖掘逻辑**：
+- ❌ 传统：搜索"量化交易"→查看博主主页→群发私信（低效且骚扰）
+- ✅ TSH：监控技术讨论区→识别高质量评论→建立专业对话（精准且尊重）
+
+## 🎣 应用场景矩阵
+
+| 目标人群 | 信号特征 | 潜在需求 | 合规风险等级 |
+|---------|---------|---------|------------|
+| 量化研究员 | 深夜评论因子细节 | 跳槽/募资 | 🟡 中 |
+| 基金经理 | 宏观帖下纠错数据 | 看新平台 | 🟢 低 |
+| Web3开发者 | 技术讨论深度回帖 | 找合伙人 | 🟢 低 |
+| AI研究员 | 论文复现问题解答 | 创业机会 | 🟡 中 |
+
+## 🚀 快速开始（手动MVP）
+
+### Step 1: 信号捕获（人工版）
+```bash
+# 在小红书/知乎搜索以下组合
+"因子挖掘" + "评论" + "最新"
+"回撤控制" + "回复" + "深度"
+
 
     # 🕵️ Talent Shadow Hunter | 影子人才挖掘器
 
@@ -72,3 +83,25 @@ talent-shadow-hunter/
 │  - 自然滚动模式（贝塞尔曲线）      │
 │  - 设备指纹轮换 (iOS/Android)    │
 └─────────────────────────────────┘
+
+talent-shadow-hunter/
+├── .github/                    # GitHub特定配置
+│   └── ISSUE_TEMPLATE/
+│       └── signal_report.md   # 信号提交模板
+├── src/
+│   ├── keywords/
+│   │   ├── quant_dict.json    # 量化核心词库
+│   │   └── web3_dict.json     # Web3扩展词库（额外提供）
+│   ├── analysis/
+│   │   └── signal_scorer.py   # 信号评分算法
+│   └── templates/
+│       └── outreach_msgs.md   # 分阶段话术模板
+├── docs/
+│   ├── strategy.md            # 操作策略手册
+│   ├── ethics-compliance.md   # 合规与伦理指南
+│   └── anti_patterns.md       # 常见错误模式
+├── cases/
+│   └── example_analysis.md    # 脱敏案例分析
+├── LICENSE                    # MIT + 伦理约束条款
+└── README.md                  # 项目门户
+
